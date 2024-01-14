@@ -8,12 +8,12 @@ import './App.css'
 const auth =getAuth(app)
 function App() {
    
-  const signupUser =()=>{
-    createUserWithEmailAndPassword(auth,
-      'abhishek@gmail.com',
-      "abhishek@1224")
-      .then((value)=>console.log(value))
-  }
+  // const signupUser =()=>{
+  //   createUserWithEmailAndPassword(auth,
+  //     'abhishek@gmail.com',
+  //     "abhishek@1224")
+  //     .then((value)=>console.log(value))
+  // }
   // const putData=()=>
   // {
   //   set(ref(db,"users/abhishek"),
